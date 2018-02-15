@@ -4,7 +4,15 @@
 
 <script type="text/javascript">
 
-function cube() {
+function cube1() {
+
+var num = document.getElementById("n1");
+
+num.value = Math.pow(num.value, 3);
+
+}
+
+function cube2() {
 
 var num = document.getElementById("n1");
 
@@ -30,13 +38,10 @@ Number:
 
 <input type="text" id="n1"><p>
 
-<<<<<<< HEAD
-<button onclick="cube()"> x^3 </button>
+<button onclick="cube1()"> x^3 </button>
 <button onclick="sine()"> sinx(x) </button>
-=======
-<button onclick="cube()"> x^4 </button>
+<button onclick="cube2()"> x^4 </button>
 
->>>>>>> master
 </body>
 
 </html>
